@@ -1,22 +1,21 @@
 
 h1, h2, h3, h4, p, ul {
     margin: 0;
+    padding: 0%;
 }
 
 body {font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    width: 1158px;
+    width: 1160px;
     margin: 0 auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
     
 }
 
-.header {
-    padding: 24px 0px;
-}
+
 .header-nav {
     display: flex;
     margin-right: auto;
@@ -84,9 +83,6 @@ body {font-family: 'Roboto', sans-serif;
     color: #404BBF;
 }
 
-.header-item-curent{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .header-container {
     display: flex;
     padding: 24px 0;
@@ -99,10 +95,7 @@ body {font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
 }  
-.hero-container {
-    padding: 188px 316px;
-     
-}
+
 .hero-title {
     width: 496px;
     font-weight: 700;
@@ -129,16 +122,22 @@ body {font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     padding: 16px 32px;
     display: block;
-    margin: 48px auto 
+    margin: 48px auto;
+    border: none;
 }
-
+.about .container  {
+    padding: 120px 120px;
+}
 .hero-button:hover {
     background: #404BBF;
 }
 .list.about {
-    margin-top: 120px;
     display: flex;
     gap: 24px;
+    
+}
+.about-item {
+   flex-basis: calc((100% - 24px) / 4); 
 }
 .about-text {
     margin-top: 8px;
@@ -167,8 +166,8 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #2E2F42; 
 }
-.work-title {
-    margin-top: 120px;
+.work .container {
+    padding-bottom: 120px;
 }
 .work-list {
     margin-top: 72px;
@@ -187,7 +186,6 @@ body {font-family: 'Roboto', sans-serif;
     
 }
 .subtitle-team {
-    margin-top: 32px;
     text-align: center;
 }
 .text-team {
@@ -195,10 +193,13 @@ body {font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .cards-team {
-    margin-right: 0;
+ margin-right: 0;
  background-color:#FFFFFF;
  border-radius: 0px 0px 4px 4px; 
  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.cards-team-info {
+    padding: 32px 0 32px 0;
 }
 
 .footer {
@@ -230,15 +231,24 @@ body {font-family: 'Roboto', sans-serif;
 
 
 /* Portfolio */
+.hero-section .container {
+    padding: 96px 0;
+}
 .hero-list {
-    margin: 96px 0;
+   
     gap: 24px;
     display: flex;
     justify-content: center;
     
 }
+.item-app .container {
+    margin-bottom: 38px;
+    
+}
+.item-app-next .container {
+    margin-bottom: 48px;
+}
 .list-row {
-    margin-top: 82px;
     margin-right: auto;
     display: flex;
     gap: 24px;
@@ -260,6 +270,7 @@ body {font-family: 'Roboto', sans-serif;
     background: #F4F4FD;
     border-radius: 4px;
     padding: 12px 24px;
+    border: none;
    
 }
 .btn-item:hover, .btn-item:focus {
