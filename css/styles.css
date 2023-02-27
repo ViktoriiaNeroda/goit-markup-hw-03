@@ -256,9 +256,9 @@ body {font-family: 'Roboto', sans-serif;
 }
 .list-row {
     margin-top: 72px;
-    margin-right: auto;
     display: flex;
-column-gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
     list-style: none;
     
@@ -273,7 +273,7 @@ column-gap: 24px;
 }
 .no-gap-card {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     flex-wrap: wrap;
     
