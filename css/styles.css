@@ -16,6 +16,7 @@ body {font-family: 'Roboto', sans-serif;
 }
 .header {
     border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;
 }
 .header-nav {
     display: flex;
@@ -84,8 +85,6 @@ body {font-family: 'Roboto', sans-serif;
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
 }
 
@@ -93,11 +92,8 @@ body {font-family: 'Roboto', sans-serif;
     background-color: #2E2F42;
     display: flex;
     align-items: center;
-}  
-.hero-container {
     padding: 188px 0px;
-    padding: 
-}
+}  
 
 .hero-title {
     width: 496px;
@@ -108,7 +104,6 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: auto;
-   
 }
 
 .hero-button {
@@ -127,19 +122,21 @@ body {font-family: 'Roboto', sans-serif;
     margin: 48px auto 0;
     border: none;
 }
-.about .container  {
-    padding: 120px 0;
-}
+
 .hero-button:hover {
     background: #404BBF;
 }
-.list.about {
+.about {
+    padding: 120px 0 60px 0;
+}
+.list-about {
     display: flex;
     gap: 24px;
-    
+    list-style: none;
 }
 .about-item {
    flex-basis: calc((100% - 24px) / 4); 
+   
 }
 .about-text {
     margin-top: 8px;
@@ -168,9 +165,10 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #2E2F42; 
 }
-.work .container {
-    padding-bottom: 120px;
+.work {
+    padding: 60px 0 120px 0;
 }
+
 .work-list {
     margin-top: 72px;
     display: flex;
@@ -237,9 +235,10 @@ body {font-family: 'Roboto', sans-serif;
 }
 
 
+
 /* Portfolio */
-.filter-section .container {
-    padding: 96px 0;
+.filter-section {
+    padding: 96px 0 120px 0;
 }
 .filter-list {
     gap: 24px;
@@ -268,7 +267,6 @@ body {font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background-color: #FFFFFF;
     row-gap: 48px;
-   
 
 }
 .no-gap-card {
@@ -307,14 +305,14 @@ display: none;
 .row-text {
     margin-top: 8px;
 }
-.subtitle-row {
-    padding-top: 32px;
-}
+
 .cards-text {
     border: 1px solid #E7E9FC;
     border-top: none;
     padding-bottom: 32px;
     padding-left: 16px;
+    padding-top: 32px;
+        
 }
 .footer-portfolio {
     margin-top: 120px;
